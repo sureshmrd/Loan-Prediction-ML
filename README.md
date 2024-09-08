@@ -55,3 +55,26 @@ This project focuses on predicting loan approval outcomes using machine learning
 - The API can handle both GET and POST requests.
 
 
+## Run the Project
+
+### Install the Requirements.txt file:
+
+```bash
+pip install -r requirements.txt
+```
+### Run the FastAPI App:
+
+```
+uvicorn app:app --reload
+```
+
+#### Access the API: Open your browser and go to http://127.0.0.1:8000/docs to see the interactive API documentation.
+
+## Results
+
+- Accuracy of SVM ---> 87.09677419354838
+- Accuracy of Logistic Regression ---> 87.09677419354838
+- Accuracy of KNN model ---> 80.64516129032258
+
+
+
