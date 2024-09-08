@@ -1,0 +1,34 @@
+Input Format : 
+=============================================
+Marriage (int)          --> 1 is "yes"(married) and 0 is "No"(not married)
+Education (int)         --> 0 is Graduate and 1 is Not Graduate.
+Income (int)            --> Any value 
+LoanAmount (float)      --> Any float value
+CrediHistory (float)    --> 1.0 or 0.0
+
+
+Output Class :
+================
+0 ---> Loan Not Granted (N)
+1 ---> Loan Granted (Y)
+
+
+About the loan_data.csv file:
+====================================================================
+Loan_ID:    A unique loan ID.
+Gender:     Either male or female.
+Married:    Whether Married(yes) or Not Married(No).
+Dependents: Number of persons depending on the client.
+Education:  Applicant Education(Graduate or Undergraduate).
+Self_Employed: Self-employed (Yes/No).
+ApplicantIncome: Applicant income.
+CoapplicantIncome: Co-applicant income.
+LoanAmount: Loan amount in thousands.
+Loan_Amount_Term: Terms of the loan in months.
+Credit_History: Credit history meets guidelines.
+Property_Area: Applicants are living either Urban, Semi-Urban or Rural.
+Loan_Status: Loan approved (Y/N).
+
+Link to the Dataset:
+========================
+https://www.kaggle.com/datasets/bhavikjikadara/loan-status-prediction?resource=download
